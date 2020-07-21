@@ -167,3 +167,18 @@ body {
   }
 
   /* End Header */
+
+  @media (max-width: 310px) {
+    .navbar-header {
+      height: 70px;
+    }
+    .navbar-brand {
+      width: 70%;
+    }
+    .navbar-brand h1 {
+      line-height: 1.5;
+    }
+    #logo-img {
+      display: none;
+    }
+  }
