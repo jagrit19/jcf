@@ -2,13 +2,9 @@
     background-color: #512DA8; 
 }
 
-.navbar {
-  border-bottom: 1px ridge white;
-}
-
 .jumbotron {
   margin: 0px auto;
-  padding: 120px 30px 70px;
+  padding: 120px 30px 50px;
   background: #9575CD;
   color: floralwhite; 
 }
@@ -16,6 +12,25 @@
 .row-header {
   margin: 0px auto;
   padding: 0px 0px; 
+}
+
+.footer {
+  background-color: #D1C4E9;
+}
+
+.footer li {
+  display: inline;
+}
+
+#Address {
+  padding-left: 20%;
+}
+#FooterName {
+  width: auto;
+  margin: 0px auto;
+}
+#Partha {
+  margin-top: 15px;
 }
 
 
@@ -29,12 +44,23 @@
   #Navbar li a .fa-info {
     margin-right:7px;
   }
+
+  #Address {
+    padding: 0px auto 30px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
   .navbar .container {
-    width: auto;
-    margin-right: 0px;
-    margin-left: 0px;
+    min-width: 560px;
+    padding: 0px;
+    position: relative;
+  }
+  #Navbar ul {
+    position: absolute;
+    right: 0px;
+  }
+  #Navbar li {
+    font-size: 0.85rem;
   }
 }
