@@ -32,6 +32,8 @@
   padding: 120px 30px 50px;
   background: #9575CD;
   color: floralwhite; 
+  background: url("../images/welcome2_new.jpg") no-repeat;
+  background-size: cover;
 }
 
 .row-header {
@@ -69,6 +71,10 @@
   #Address {
     padding: 0px auto 30px;
   }
+
+  .jumbotron {
+    background: url("../images/welcome2.jpg") no-repeat;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -83,5 +89,9 @@
   }
   #Navbar li {
     font-size: 0.80rem;
+  }
+  .jumbotron {
+    background: url("../images/welcome2.jpg") no-repeat;
+    background-size: cover;
   }
 }
