@@ -5,6 +5,7 @@
   border-radius: 50%;
   height: 50px;
   width: 50px;
+  z-index: 1;
 }
 #Call span {
   position: relative;
@@ -17,6 +18,7 @@
   border-radius: 50%;
   height: 50px;
   width: 50px;
+  z-index: 1;
 }
 #Email span {
   position: relative;
@@ -32,6 +34,8 @@
   padding: 120px 30px 50px;
   background: #9575CD;
   color: floralwhite; 
+}
+.jumbotron-header {
   background: url("../images/welcome2_new.jpg") no-repeat;
   background-size: cover;
 }
@@ -39,6 +43,29 @@
 .row-header {
   margin: 0px auto;
   padding: 0px 0px; 
+}
+
+section {
+  background: #9575CD;
+  color: floralwhite;
+}
+
+#WhyUs {
+  /*color: green;*/
+  width: auto;
+}
+#WhyUsPhoto {
+  min-width: 80%;
+  margin: 0px auto;
+}
+
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+}
+#myCarousel a {
+  text-decoration: none;
 }
 
 .footer {
@@ -72,7 +99,7 @@
     padding: 0px auto 30px;
   }
 
-  .jumbotron {
+  .jumbotron-header {
     background: url("../images/welcome2.jpg") no-repeat;
   }
 }
@@ -90,7 +117,7 @@
   #Navbar li {
     font-size: 0.80rem;
   }
-  .jumbotron {
+  .jumbotron-header {
     background: url("../images/welcome2.jpg") no-repeat;
     background-size: cover;
   }
