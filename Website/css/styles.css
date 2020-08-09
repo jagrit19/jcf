@@ -50,8 +50,9 @@
 }
 
 section {
-  background: #9575CD;
-  color: floralwhite;
+  /*background: #9575CD;
+  color: floralwhite;*/
+  position: relative;
   padding: 15px 0px;
   margin: 15px 0px;
 }
@@ -74,6 +75,7 @@ section {
 .carousel-item h5 {
   margin-top: 10px;
   font-size: 2em;
+  color: black;
 }
 .carousel-caption {
   position: relative;
@@ -84,50 +86,23 @@ section {
   text-decoration: none;
 }
 
+
+/* --------BACKGROUND IMAGE---------- */
 .bg-image {
-  /* The image used */
-  /*background-image: url("../images/background.jpg");
-
-  /* Add the blur effect */
-  /*filter: blur(8px);
-  -webkit-filter: blur(8px);
-
-  /* Full height */
-  /*height: 100%;
-
-  /* Center and scale the image nicely */
-  /*background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;*/
-}
-
-/* Position text in the middle of the page/image */
-.bg-text {
-  /*background-color: rgb(0,0,0); /* Fallback color */
-  /*background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  /*color: white;*/
-  /*font-weight: bold;
-  border: 3px solid #f1f1f1;*/
-  /*position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;*/
-  /*width: 80%;
-  padding: 20px;*/
-  /*text-align: center;*/
-}
-.container-last {
-  position: relative;
-  margin-bottom: 20px;
-}
-.container-last img {
   position: absolute;
   left: 0px;
+  top: 0px;
   opacity: 0.3;
   height: 100%;
   width: 100%;
   border-radius: 15px;
+}
+
+
+
+.container-last {
+  position: relative;
+  margin-bottom: 20px;
 }
 .row-last {
   border: 1px solid black;
@@ -155,6 +130,28 @@ section {
 }
 
 
+
+/* ---------ABOUT US PAGE---------- */
+.jumbotron-about {
+  background: url("../images/aboutus_new.jpg") no-repeat;
+  background-size: cover;
+}
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  /*border: 1px solid #ddd;
+  border-top: 0px;*/
+  padding: 10px;
+}
+
+
+
+
+
+
+
 @media (max-width: 575px) {
   #Navbar li {
     /*text-align: center;*/
@@ -173,6 +170,10 @@ section {
   .jumbotron-header {
     background: url("../images/welcome2.jpg") no-repeat;
   }
+  .jumbotron-about {
+    background: url("../images/aboutus.jpg") no-repeat;
+    background-size: cover;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -190,6 +191,10 @@ section {
   }
   .jumbotron-header {
     background: url("../images/welcome2.jpg") no-repeat;
+    background-size: cover;
+  }
+  .jumbotron-about {
+    background: url("../images/aboutus.jpg") no-repeat;
     background-size: cover;
   }
 }
