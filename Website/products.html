@@ -27,7 +27,7 @@
             <a class="navbar-brand" href="#">
                 <img src="images/logo_final_small.png" alt="JCF Logo">
             </a>
-            <button class="navbar-toggler justify-self-right" type="button" data-toggle="collapse" data-target="#Navbar">
+            <button class="navbar-toggler justify-self-right" type="button" data-toggle="collapse" data-target="#Navbar" id="NavButton">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="Navbar">
@@ -53,7 +53,7 @@
         </div>
     </nav>
 
-    <header class="jumbotron">
+    <header class="jumbotron jumbotron-products">
         <div class="container">
             <div class="row row-header">
                 <div class="col-12">
@@ -63,12 +63,100 @@
         </div>
     </header>
 
-    <div id="Our-specialities">Our Specialities</div> <br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <div id="Micro-nutrients">Micro-nutrients</div> <br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <div id="PGRs">PGRs (Plant Growth Regulators)</div> <br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <div id="Raw-granules">Raw Granules</div> <br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <div id="Organic-nutrients">Organic Nutrients</div> <br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <div id="Fisheries">Fisheries</div> <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="container">
+        <div class="row">
+            <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active">Our Products</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="accordion">
+
+            <div class="card">
+                <a data-toggle="collapse" data-target="#Products1">
+                    <div class="card-header" role="tab" id="Micro-nutrients">
+                        <h3 class="mb-0">Micro-Nutrients</h3>
+                    </div>
+                </a>
+                <div class="collapse show" id="Products1" data-parent="#accordion">
+                    <div class="card-body">
+                        <div class="col-6 col-sm-4 col-md-3">
+                            <img src="./images/logo.png" alt="Product photo">
+                            <span>Ferrous Sulphate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <a data-toggle="collapse" data-target="#Products2">
+                    <div class="card-header" role="tab" id="PGRs">
+                        <h3 class="mb-0">Plant Growth Regulators (PGRs)</h3>
+                    </div>
+                </a>
+                <div class="collapse show" id="Products2" data-parent="#accordion">
+                    <div class="card-body">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <a data-toggle="collapse" data-target="#Products3">
+                    <div class="card-header" role="tab" id="Raw-granules">
+                        <h3 class="mb-0">Raw Granules</h3>
+                    </div>
+                </a>
+                <div class="collapse show" id="Products3" data-parent="#accordion">
+                    <div class="card-body">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <a data-toggle="collapse" data-target="#Products4">
+                    <div class="card-header" role="tab" id="Organic-nutrients">
+                        <h3 class="mb-0">Organic Nutrients</h3>
+                    </div>
+                </a>
+                <div class="collapse show" id="Products4" data-parent="#accordion">
+                    <div class="card-body">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <a data-toggle="collapse" data-target="#Products5">
+                    <div class="card-header" role="tab" id="Fisheries">
+                        <h3 class="mb-0">Fisheries</h3>
+                    </div>
+                </a>
+                <div class="collapse show" id="Products5" data-parent="#accordion">
+                    <div class="card-body">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <a data-toggle="collapse" data-target="#Products6">
+                    <div class="card-header" role="tab" id="Our-specialities">
+                        <h3 class="mb-0">Our Specialities</h3>
+                    </div>
+                </a>
+                <div class="collapse show" id="Products6" data-parent="#accordion">
+                    <div class="card-body">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="footer">
         <div class="container">
