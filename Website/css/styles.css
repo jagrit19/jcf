@@ -162,17 +162,34 @@ section {
 
 .card-body img {
   width: 100%;
-  max-height: 140px;
+
 }
-#accordion span {
+/*#accordion span {
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 0;
+  width: 80%;
+  text-align: center;
+  background-color: #9575cd;
+  color: #fff;
+  opacity: .8;
+  margin-left: 25px;
+}*/
+.haha {
+  /*position: absolute;
+  bottom: 0;
+  left: 0;*/
   width: 100%;
   text-align: center;
   background-color: #9575cd;
   color: #fff;
   opacity: .8;
+  min-height: 50px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*margin-left: 25px;*/
 }
 
 
@@ -233,6 +250,10 @@ section {
   background: url("../images/products.jpg") no-repeat;
   background-size: cover;
   }
+
+  /*#accordion span {
+    margin-left: 15px;
+  }*/
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -263,5 +284,20 @@ section {
   .jumbotron-products {
   background: url("../images/products.jpg") no-repeat;
   background-size: cover;
+  }
+
+  /*#accordion span {
+    margin-left: 20px;
+  }*/
+  .haha {
+    min-height: 72px;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .haha {
+    min-height: 72px;
   }
 }
