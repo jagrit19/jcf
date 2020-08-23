@@ -34,7 +34,7 @@ $('#myCarousel').carousel( {interval: 3000} );
 	$('#Navbar').collapse('hide');
 }*/
 
-$('#NavButton').blur(function() {
+/*$('#NavButton').blur(function() {
 	$('#Navbar').collapse('hide');
 	console.log(this);
-});
+});*/
