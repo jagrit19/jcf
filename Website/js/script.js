@@ -3,22 +3,22 @@ $(document).ready(function() {
 
 	$('.animate__animated').css('opacity', 0.2);
 
-  	$('#WhyUsPhoto').waypoint(function() {
-    	$('#WhyUsPhoto').addClass('animate__fadeIn');
-  	}, { offset: 'bottom-in-view' });
+  	/*$('#WhyUsPhoto').waypoint(function() {
+    	$('#WhyUsPhoto').css('opacity', 1);
+  	}, { offset: 'bottom-in-view' });*/
 
   	$('#Reason1').waypoint(function() {
-    	$('#Reason1').addClass('animate__lightSpeedInLeft');
+    	$('#Reason1').addClass('animate__fadeInLeft');
     	$('#Reason1').css('opacity', 1);
   	}, { offset: 'bottom-in-view' });
   	
   	$('#Reason2').waypoint(function() {
-    	$('#Reason2').addClass('animate__lightSpeedInRight');
+    	$('#Reason2').addClass('animate__fadeInRight');
     	$('#Reason2').css('opacity', 1);
   	}, { offset: 'bottom-in-view' });
 
   	$('#Reason3').waypoint(function() {
-    	$('#Reason3').addClass('animate__lightSpeedInLeft');
+    	$('#Reason3').addClass('animate__fadeInLeft');
     	$('#Reason3').css('opacity', 1);
   	}, { offset: 'bottom-in-view' });
 
